@@ -91,7 +91,16 @@ p, a, h1, h2, h3, h4, h5, label, button {
   flex-direction: column;
   justify-content: center;
 }
-
+.dark-mode {
+  .MuiInputBase-input {
+    background-color: white !important; 
+    color: black; 
+  }
+  .MuiFormControl-root  {
+     background-color: white !important; 
+    color: black; 
+  }
+}
 .light-mode {
   background-color: #f8f9fa;
 
