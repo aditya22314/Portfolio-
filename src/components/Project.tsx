@@ -1,6 +1,6 @@
-import blogapp from "../assets/images/blog_app.png";
-import movieManiac from "../assets/images/movie_maniac.png";
-import greenStack from "../assets/images/Green_cart.png";
+import blogapp from "../assets/images/blogg.png";
+import movieManiac from "../assets/images/movieimage.png";
+import greenStack from "../assets/images/GreenCart.png";
 import "../assets/styles/Project.scss";
 
 function Project() {
@@ -10,7 +10,7 @@ function Project() {
       <div className="projects-grid">
         <div className="project">
           <a
-            href="https://yujisatojr.itch.io/spacecraft"
+            href="https://green-stack-opal.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -19,11 +19,10 @@ function Project() {
               className="zoom"
               alt="thumbnail"
               width="100%"
-              height={"425px"}
             />
           </a>
           <a
-            href="https://yujisatojr.itch.io/spacecraft"
+            href="https://green-stack-opal.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -61,7 +60,7 @@ function Project() {
         </div>
         <div className="project">
           <a
-            href="https://yujisatojr.itch.io/highspeedchase"
+            href="https://movie-maniac.onrender.com/"
             target="_blank"
             rel="noreferrer"
           >
@@ -70,11 +69,10 @@ function Project() {
               className="zoom"
               alt="thumbnail"
               width="100%"
-              height={"425px"}
             />
           </a>
           <a
-            href="https://yujisatojr.itch.io/highspeedchase"
+            href="https://movie-maniac.onrender.com/"
             target="_blank"
             rel="noreferrer"
           >
