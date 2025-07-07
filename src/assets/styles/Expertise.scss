@@ -59,6 +59,17 @@
 .flex-chips .MuiChip-outlined span {
     color: rgb(39, 40, 34);
 }
+// .chip {
+//   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+//   cursor: pointer;
+
+//   &:hover {
+//     transform: scale(1.05);
+//     background-color: lightgreen;
+//     color: white;
+//     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+//   }
+// }
 
 @media screen {
     @media (max-width: 768px) {

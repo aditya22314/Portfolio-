@@ -34,16 +34,6 @@ const labelsSecond = [
   "Sonar Qube",
 ];
 
-const labelsThird = [
-  "OpenAI",
-  "Groq",
-  "LangChain",
-  "Qdrant",
-  "Hugging Face",
-  "LlamaIndex",
-  "Streamlit",
-];
-
 function Expertise() {
   return (
     <div className="container" id="expertise">
@@ -62,7 +52,17 @@ function Expertise() {
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
               {labelsFirst.map((label, index) => (
-                <Chip key={index} className="chip" label={label} />
+                <Chip
+                  key={index}
+                  className="chip"
+                  label={label}
+                  sx={{
+                    "&:hover": {
+                      transform: "scale(1.05)",
+                      boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
+                    },
+                  }}
+                />
               ))}
             </div>
           </div>
@@ -79,27 +79,20 @@ function Expertise() {
             <div className="flex-chips">
               <span className="chip-title">Tech stack:</span>
               {labelsSecond.map((label, index) => (
-                <Chip key={index} className="chip" label={label} />
+                <Chip
+                  key={index}
+                  className="chip"
+                  sx={{
+                    "&:hover": {
+                      transform: "scale(1.05)",
+                      boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
+                    },
+                  }}
+                  label={label}
+                />
               ))}
             </div>
           </div>
-
-          {/* <div className="skill">
-            <FontAwesomeIcon icon={faPython} size="3x" />
-            <h3>GenAI & LLM</h3>
-            <p>
-              Stay relevant in the market by leveraging the latest AI models in
-              your projects. I have professional experience building enterprise
-              grade GenAI-enabled solutions to empower intelligent decision
-              making.
-            </p>
-            <div className="flex-chips">
-              <span className="chip-title">Tech stack:</span>
-              {labelsThird.map((label, index) => (
-                <Chip key={index} className="chip" label={label} />
-              ))}
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
